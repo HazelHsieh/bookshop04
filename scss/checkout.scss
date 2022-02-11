@@ -23,6 +23,19 @@
         top:30%;
         right: 0;
         transform: translateX(50%);
+        width: 75%;
+    }
+    @media (max-width:798px) {
+        .progress {
+            width: 60%;
+            top:38%;
+        }
+    }
+    @media (max-width:530px) {
+        .progress {
+            width: 50%;
+            top:28%;
+        }
     }
     
     .orderlist {
